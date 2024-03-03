@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PROGRAMING WIZARDS</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <style>
+    /* Basic styling for the navigation bar */
+    .navbarr {
+        background-color: transparent;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbarr a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Styling for hover effect on navigation links */
+    .navbarr a:hover {
+        background-color: #FF7777;
+        color: black;
+    }
+
+  
+</style>
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbarr">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+   
+   <section class="flex">
+
+      <a href="index.html" class="nlog"><img src="/o (2).png" width="75" height="75" class="d-inline-block align-top"></a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+      
+
+      <div class="icons">
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+         <a href="contact.html" class="btn">Contact Us</a>
+      </div>
+  </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <a href="register.html" class="btn"><span class="signn">SIGN UP</span></a>
+   </div>
+
+   <nav class="nav-bar">
+      <a href="index.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+   </nav>
+</div>
+<div>
+   <div class="carousel">
+     <ul class="slides">
+       <input type="radio" name="radio-buttons" id="img-1" checked />
+       <li class="slide-container">
+         <div class="slide-image">
+           <img src="https://source.unsplash.com/random/1920x600/?coding">
+         </div>
+         <div class="carousel-controls">
+           <label for="img-3" class="prev-slide">
+             <span>&lsaquo;</span>
+           </label>
+           <label for="img-2" class="next-slide">
+             <span>&rsaquo;</span>
+           </label>
+         </div>
+       </li>
+       <input type="radio" name="radio-buttons" id="img-2" />
+       <li class="slide-container">
+         <div class="slide-image">
+           <img src="https://source.unsplash.com/random/1920x600/?hacker">
+         </div>
+         <div class="carousel-controls">
+           <label for="img-1" class="prev-slide">
+             <span>&lsaquo;</span>
+           </label>
+           <label for="img-3" class="next-slide">
+             <span>&rsaquo;</span>
+           </label>
+         </div>
+       </li>
+       <input type="radio" name="radio-buttons" id="img-3" />
+       <li class="slide-container">
+         <div class="slide-image">
+           <img src="https://source.unsplash.com/random/1920x600/?ai">
+         </div>
+         <div class="carousel-controls">
+           <label for="img-2" class="prev-slide">
+             <span>&lsaquo;</span>
+           </label>
+           <label for="img-1" class="next-slide">
+             <span>&rsaquo;</span>
+           </label>
+         </div>
+       </li>
+       <div class="carousel-dots">
+         <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+         <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+         <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+       </div>
+     </ul>
+   </div>
+ </div>
+ <!--CARD SECTION BELOW CAROUSEL-->
+ <div class="card-list">
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?DSA" alt="Card Image">
+      <span class="developer">Developer</span>
+      <h3>DEVELOPER COURSES</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?GOOGLE" alt="Card Image">
+      <span class="designer">Designer</span>
+      <h3>DESIGNER COURSES</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?LEETCODE" alt="Card Image">
+      <span class="editor">DSA</span>
+      <h3>PRACTICE DSA QUESTIONS</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+</div>
+<div>
+  <h1 style="text-align: center; color: black; background-color: #fff; font-size: 50px; margin-top: 10px;">PREPARE FOR INTERVIEWS</h1>
+</div>
+<!--CARD SECTION BELOW CAROUSEL-->
+<div class="card-list">
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?DSA" alt="Card Image">
+      <span class="developer">Developer</span>
+      <h3>DEVELOPER COURSES</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?GOOGLE" alt="Card Image">
+      <span class="designer">Designer</span>
+      <h3>DESIGNER COURSES</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?LEETCODE" alt="Card Image">
+      <span class="editor">DSA</span>
+      <h3>PRACTICE DSA QUESTIONS</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+</div>
+<!--CARD SECTION BELOW CAROUSEL-->
+<div class="card-list">
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?DSA" alt="Card Image">
+      <span class="developer">Developer</span>
+      <h3>DEVELOPER COURSES</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?GOOGLE" alt="Card Image">
+      <span class="designer">Designer</span>
+      <h3>DESIGNER COURSES</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+  <a href="#" class="card-item">
+      <img src="https://source.unsplash.com/random/400X400/?LEETCODE" alt="Card Image">
+      <span class="editor">DSA</span>
+      <h3>PRACTICE DSA QUESTIONS</h3>
+      <div class="arrow">
+          <i class="fas fa-arrow-right card-icon"></i>
+      </div>
+  </a>
+</div>
+
+<div>
+  <h1 style="text-align: center; color: black; background-color: #fff; font-size: 50px;">DISCUSSION</h1>
+</div>
+
+<div class="wrapper">
+  <div class="outer">
+    <div class="card1" style="--delay:-1;">
+      <div class="content">
+        <div class="img"><img src="https://source.unsplash.com/random/100x100/?DSA" alt=""></div>
+        <div class="details">
+          <span class="name">Sumit Kapoor</span>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+      <a href="#">Go Now</a>
+    </div>
+    <div class="card1" style="--delay:0;">
+      <div class="content">
+        <div class="img"><img src="https://source.unsplash.com/random/100x100/?coding" alt=""></div>
+        <div class="details">
+          <span class="name">Andrew Neil</span>
+          <p>YouTuber & Blogger</p>
+        </div>
+      </div>
+      <a href="#">Go Now</a>
+    </div>
+    <div class="card1" style="--delay:1;">
+      <div class="content">
+        <div class="img"><img src="https://source.unsplash.com/random/100x100/?tech" alt=""></div>
+        <div class="details">
+          <span class="name">Jasmine Carter</span>
+          <p>Freelancer & Vlogger</p>
+        </div>
+      </div>
+      <a href="#">Go Now</a>
+    </div>
+    <div class="card1" style="--delay:2;">
+      <div class="content">
+        <div class="img"><img src="https://source.unsplash.com/random/100x100/?skills" alt=""></div>
+        <div class="details">
+          <span class="name">Justin Chung</span>
+          <p>Backend Developer</p>
+        </div>
+      </div>
+      <a href="#">Go Now</a>
+    </div>
+    <div class="card1" style="--delay:2;">
+      <div class="content">
+        <div class="img"><img src="https://source.unsplash.com/random/100x100/?ai" alt=""></div>
+        <div class="details">
+          <span class="name">Adrina Calvo</span>
+          <p>Teacher & Advertiser</p>
+        </div>
+      </div>
+      <a href="#">Go Now</a>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+
+   &copy; copyright @ 2024<span> PROGRAMING WIZARDS</span> | all rights reserved!
+
+</footer>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
